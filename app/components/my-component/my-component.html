@@ -1,0 +1,36 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<dom-module id="my-component">
+  <template>
+    <style>
+      :host {
+        display: block;
+        cursor: pointer;
+        background: #eaeaea;
+        color: #aaa;
+        text-align: center;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        width: 200px;
+        margin: 100px auto;
+        padding: 10px 30px;
+        box-shadow: 5px 5px 4px #eaeaea;
+      }
+
+      :host:hover {
+        background: #eee;
+      }
+
+      :host h1 {
+        margin-bottom: 5px;
+      }
+    </style>
+
+    <div on-click="toggle">
+      <h1 style="color: {{color}}">Yeyy!</h1>
+      Polymer + ES6 + Webpack
+    </div>
+  </template>
+
+  <script src="./my-component.js"></script>
+</dom-module>

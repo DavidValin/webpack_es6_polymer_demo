@@ -1,0 +1,13 @@
+{
+  "name": "webpack_es6_polymer_demo",
+  "description": "I need to avoid the <link rel=\"import\" Polymer spagetti. The goal: be able to use ES6 modular code with ES6 import/exports and have one or multiple application bundles. So basically have a proper Javascript build process.",
+  "main": "app_entrypoint.js",
+  "authors": [
+    "David Valin <davidvalin@howerest.com>"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "http://www.howerest.com/labs",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.8.1"
+  }
+}
